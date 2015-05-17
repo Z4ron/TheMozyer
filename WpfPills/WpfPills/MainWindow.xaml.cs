@@ -12,8 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
-namespace WpfPills
+namespace WpfApplication1
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,20 +24,49 @@ namespace WpfPills
         public MainWindow()
         {
             InitializeComponent();
-        }
+            
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += timer_Tick;
+            timer.Start();
 
-        private void CheckBox_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        void timer_Tick(object sender, EventArgs e)
         {
+                time.Text = DateTime.Now.ToLongTimeString();
+                date.Text = DateTime.Now.ToLongDateString();
+        }
+
+        private void ButtonClickHandler(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            switch(button.Name)
+            {
+              /*
+               * Just type in the constructors for the pages 
+               * For example the code to create and display the main page is
+               * 
+               * new MainWindow().Show();
+               * 
+                case "Vitals": // Vitals page
+              
+                    break;
+                case "Settings": // Settings page
+                    
+                    break;
+                case "Medications": // Medications page
+                    
+                    break;
+               * 
+               */
+
+                case "Emergency":
+                    
+                    break;
+
+            }
 
         }
     }

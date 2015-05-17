@@ -1,0 +1,8 @@
+﻿<Window x:Class="TheMozyer.EmergencyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EmergencyWindow" Height="1366" Width="768" WindowStyle="None" ResizeMode="NoResize">
+    <Grid Background="Red">
+       
+    </Grid>
+</Window>

@@ -11,3 +11,4 @@ C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.Properties.Resources
 C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.csproj.GenerateResource.Cache
 C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.exe
 C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.pdb
+C:\Users\Alper\Desktop\TheMozyer\WpfPills\WpfPills\bin\Debug\WpfPills.exe.config

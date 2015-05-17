@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WpfPills
+namespace TheMozyer
 {
     /// <summary>
     /// Interaction logic for App.xaml
