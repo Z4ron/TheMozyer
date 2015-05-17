@@ -1,0 +1,13 @@
+C:\Users\Ben\workspace\WpfPills\WpfPills\bin\Debug\WpfPills.exe.config
+C:\Users\Ben\workspace\WpfPills\WpfPills\bin\Debug\WpfPills.exe
+C:\Users\Ben\workspace\WpfPills\WpfPills\bin\Debug\WpfPills.pdb
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.csprojResolveAssemblyReference.cache
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\MainWindow.baml
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\MainWindow.g.cs
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\App.g.cs
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills_MarkupCompile.cache
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.g.resources
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.Properties.Resources.resources
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.csproj.GenerateResource.Cache
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.exe
+C:\Users\Ben\workspace\WpfPills\WpfPills\obj\Debug\WpfPills.pdb
