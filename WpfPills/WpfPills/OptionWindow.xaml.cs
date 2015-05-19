@@ -38,6 +38,12 @@ namespace TheMozyer
             this.Close();
         }
 
+        private void Date_Button(object sender, RoutedEventArgs e)
+        {
+            new Date().Show();
+            this.Close();
+        }
+
         // For starting the window in a consistent position
         private void SetStartPosition()
         {

@@ -10,7 +10,7 @@
         <Button x:Name="addPills_Copy" Content="Add Vitals" HorizontalAlignment="Left" Margin="269,130,0,0" VerticalAlignment="Top" Width="813" Height="89" FontSize="40"/>
         <Button x:Name="addPills_Copy1" Content="Change Images" HorizontalAlignment="Left" Margin="269,224,0,0" VerticalAlignment="Top" Width="813" Height="90" FontSize="40"/>
         <Button x:Name="addPills_Copy3" Content="Colors" HorizontalAlignment="Left" Margin="269,419,0,0" VerticalAlignment="Top" Width="813" Height="90" FontSize="40"/>
-        <Button x:Name="addPills_Copy4" Content="Set Date / Time" HorizontalAlignment="Left" Margin="269,514,0,0" VerticalAlignment="Top" Width="813" Height="88" FontSize="40"/>
+        <Button x:Name="addPills_Copy4" Content="Set Date / Time" HorizontalAlignment="Left" Margin="269,514,0,0" VerticalAlignment="Top" Width="813" Height="88" FontSize="40" Click="Date_Button"/>
         <Button x:Name="addPills_Copy6" Content="Left Handed Mode" HorizontalAlignment="Left" Margin="269,319,0,0" VerticalAlignment="Top" Width="813" Height="95" FontSize="40"/>
         <Button Content="Home" HorizontalAlignment="Left" Margin="897,625,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Home_Button"/>
 
