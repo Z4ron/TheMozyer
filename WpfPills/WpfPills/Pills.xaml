@@ -1,7 +1,7 @@
 ﻿<Window x:Class="TheMozyer.Pills"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Pills" Height="768" Width="1366" WindowStyle="None">
+        Title="Pills" Height="768" Width="1366" WindowStyle="None" AllowsTransparency="True">
     <Grid>
         <ListBox Name="MedicationList" HorizontalAlignment="Left" Height="528" Margin="35,131,0,0" VerticalAlignment="Top" Width="233" SelectionChanged="MedicationList_SelectionChanged"/>
 

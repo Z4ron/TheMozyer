@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Options" Height="768" Width="1366">
+        Title="Options" Height="768" Width="1366" WindowStyle="None" AllowsTransparency="True">
     <Grid>
         <Button x:Name="addPills" Content="Add Pills" HorizontalAlignment="Left" Margin="269,38,0,0" VerticalAlignment="Top" Width="813" Height="87" FontSize="40" Click="Pills_Button"/>
         <Button x:Name="addPills_Copy" Content="Add Vitals" HorizontalAlignment="Left" Margin="269,130,0,0" VerticalAlignment="Top" Width="813" Height="89" FontSize="40" Click="Vitals_Button"/>

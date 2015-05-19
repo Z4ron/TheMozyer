@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="Window1" Height="758" Width="1366">
+        Title="Window1" Height="758" Width="1366" WindowStyle="None" AllowsTransparency="True">
     <Grid>
         <Label x:Name="label" Content="Date:" HorizontalAlignment="Left" Margin="296,246,0,0" VerticalAlignment="Top" Height="86" Width="202" FontSize="53.333"/>
         <Label x:Name="label_Copy" Content="Time:" HorizontalAlignment="Left" Margin="296,366,0,0" VerticalAlignment="Top" Height="86" Width="202" FontSize="53.333"/>
