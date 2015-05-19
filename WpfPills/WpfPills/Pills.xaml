@@ -25,7 +25,7 @@
         <Label Content="Times" HorizontalAlignment="Left" Margin="749,270,0,0" VerticalAlignment="Top"/>
 
 
-        <CheckBox Name="SundayBox" Content="Sunday" HorizontalAlignment="Left" Margin="322,343,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <CheckBox Name="SundayBox" Content="Sunday" HorizontalAlignment="Left" Margin="320,343,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <CheckBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -35,7 +35,7 @@
                 </TransformGroup>
             </CheckBox.RenderTransform>
         </CheckBox>
-        <CheckBox Name="MondayBox" Content="Monday" HorizontalAlignment="Left" Margin="323,387,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <CheckBox Name="MondayBox" Content="Monday" HorizontalAlignment="Left" Margin="322,386,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <CheckBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -45,7 +45,7 @@
                 </TransformGroup>
             </CheckBox.RenderTransform>
         </CheckBox>
-        <CheckBox Name ="TuesdayBox" Content="Tuesday" HorizontalAlignment="Left" Margin="320,428,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <CheckBox Name ="TuesdayBox" Content="Tuesday" HorizontalAlignment="Left" Margin="321,428,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <CheckBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -55,7 +55,7 @@
                 </TransformGroup>
             </CheckBox.RenderTransform>
         </CheckBox>
-        <CheckBox Name="WednesdayBox" Content="Wednesday" HorizontalAlignment="Left" Margin="330,471,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <CheckBox Name="WednesdayBox" Content="Wednesday" HorizontalAlignment="Left" Margin="331,471,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <CheckBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -65,7 +65,7 @@
                 </TransformGroup>
             </CheckBox.RenderTransform>
         </CheckBox>
-        <CheckBox Name="ThursdayBox" Content="Thursday" HorizontalAlignment="Left" Margin="322,514,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <CheckBox Name="ThursdayBox" Content="Thursday" HorizontalAlignment="Left" Margin="324,514,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <CheckBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -75,7 +75,7 @@
                 </TransformGroup>
             </CheckBox.RenderTransform>
         </CheckBox>
-        <CheckBox Name ="FridayBox" Content="Friday" HorizontalAlignment="Left" Margin="313,559,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <CheckBox Name ="FridayBox" Content="Friday" HorizontalAlignment="Left" Margin="316,559,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <CheckBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>
@@ -85,7 +85,7 @@
                 </TransformGroup>
             </CheckBox.RenderTransform>
         </CheckBox>
-        <CheckBox Name="SaturdayBox" Content="Saturday" HorizontalAlignment="Left" Margin="322,602,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+        <CheckBox Name="SaturdayBox" Content="Saturday" HorizontalAlignment="Left" Margin="323,602,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
             <CheckBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>

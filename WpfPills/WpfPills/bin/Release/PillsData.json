@@ -1,1 +1,1 @@
-[]
+[{"name":"Red Pill","doses":"2","days":["Sunday","Monday"],"hours":["1:10 PM"],"from":"\/Date(1430625600000)\/","to":"\/Date(1432094400000)\/"},{"name":"Blue Pill","doses":"4","days":["Sunday","Monday","Thursday"],"hours":["1:10 PM","1:40 PM","8:40 PM"],"from":"\/Date(1430625600000)\/","to":"\/Date(1432612800000)\/"},{"name":"Red Pill2","doses":"2","days":["Sunday","Monday","Wednesday"],"hours":["1:10 PM","3:40 PM"],"from":"\/Date(1430798400000)\/","to":"\/Date(1432526400000)\/"}]
