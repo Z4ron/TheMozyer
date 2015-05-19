@@ -20,8 +20,8 @@
         <Button Name="Settings" Content="Settings" HorizontalAlignment="Left" Margin="15,664,0,0" VerticalAlignment="Top" Width="100" Height="85" FontSize="25" Click="PageHandler"/>
 
         <TextBox HorizontalAlignment="Left" Height="75" Margin="15,10,0,0" TextWrapping="Wrap" Text="Warning: Blood Glucose Levels Low, Eat a Snack" VerticalAlignment="Top" Width="1070" FontSize="45" Background="{x:Null}"/>
-        <TextBox Name="time" HorizontalAlignment="Left" Height="84" Margin="120,665,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Width="405" FontSize="45" Background="{x:Null}" Foreground="White"/>
-        <TextBox Name="date" HorizontalAlignment="Left" Height="84" Margin="530,665,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="555" FontSize="45" Background="{x:Null}" Foreground="White"/>
+        <TextBox Name="time" HorizontalAlignment="Left" Height="84" Margin="120,665,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Width="405" FontSize="45" Background="{x:Null}"/>
+        <TextBox Name="date" HorizontalAlignment="Left" Height="84" Margin="530,665,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="555" FontSize="45" Background="{x:Null}"/>
         <Border BorderBrush="Black" BorderThickness="2">
             <Grid HorizontalAlignment="Left" Height="569" Margin="15,90,0,0" VerticalAlignment="Top" Width="1070">
                 <Grid.RowDefinitions>

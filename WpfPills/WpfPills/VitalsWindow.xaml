@@ -21,8 +21,8 @@
 
         <TextBox HorizontalAlignment="Left" Height="75" Margin="15,10,0,0" TextWrapping="Wrap" Text="Warning: Blood Glucose Levels Low, Eat a Snack" VerticalAlignment="Top" Width="1070" FontSize="45" Background="{x:Null}"/>
         <TextBox HorizontalAlignment="Left" Height="75" Margin="15,379,0,0" TextWrapping="Wrap" Text="Blood Glucose Level: Low, Eat a Snack" VerticalAlignment="Top" Width="1070" FontSize="35" Background="{x:Null}"/>
-        <TextBox Name="time" HorizontalAlignment="Left" Height="84" Margin="120,665,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Width="405" FontSize="45" Background="{x:Null}" Foreground="White"/>
-        <TextBox Name="date" HorizontalAlignment="Left" Height="84" Margin="530,665,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="555" FontSize="45" Background="{x:Null}" Foreground="White"/>
+        <TextBox Name="time" HorizontalAlignment="Left" Height="84" Margin="120,665,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Width="405" FontSize="45" Background="{x:Null}"/>
+        <TextBox Name="date" HorizontalAlignment="Left" Height="84" Margin="530,665,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="555" FontSize="45" Background="{x:Null}"/>
         <Image x:Name="bloodChart" HorizontalAlignment="Left" Height="200" Margin="15,459,0,0" VerticalAlignment="Top" Width="1070" Source="/images/newBloodGraph.png" Stretch="Fill"/>
         <Image x:Name="heartChart" HorizontalAlignment="Left" Height="200" Margin="10,179,0,0" VerticalAlignment="Top" Width="1075" Source="/images/newHeartGraph.png" Stretch="Fill"/>
         <TextBox HorizontalAlignment="Left" Height="75" Margin="15,104,0,0" TextWrapping="Wrap" Text="Heart Rate Level: Good" VerticalAlignment="Top" Width="1070" FontSize="35" Background="{x:Null}"/>

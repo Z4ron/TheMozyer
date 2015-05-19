@@ -39,6 +39,11 @@ namespace TheMozyer
         {
             InitializeComponent();
             SetStartPosition();
+
+            timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            timer.Tick += timer_Tick;
+            timer.Start();
         }
 
         // If critical condition continues for 10 seconds then automatically call emergency
