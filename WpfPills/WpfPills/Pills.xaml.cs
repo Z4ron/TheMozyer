@@ -40,7 +40,7 @@ namespace TheMozyer
         public Pills()
         {
             InitializeComponent();
-    
+            SetStartPosition();
             AddHours();
             AddMinutes();
             PopulatePillsData();
@@ -144,6 +144,12 @@ namespace TheMozyer
             this.Close();
         }
 
+        private void Back_Button(object sender, RoutedEventArgs e)
+        {
+            new OptionsWindow().Show();
+            this.Close();
+        }
+
         // Methods for getting data from form controls
         private List<String> getDays()
         {
@@ -222,6 +228,13 @@ namespace TheMozyer
                 minutes.SelectedValue = null;
                 apm.SelectedValue = null;
             }
+        }
+
+        // For starting the window in a consistent position
+        private void SetStartPosition()
+        {
+            this.Left = 100;
+            this.Top = 100;
         }
 
     }

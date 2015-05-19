@@ -38,6 +38,7 @@ namespace TheMozyer
         public MainWindow()
         {
             InitializeComponent();
+            SetStartPosition();
             GetMeds();
 
            
@@ -128,22 +129,21 @@ namespace TheMozyer
         }
         
         
-        private void ButtonClickHandler(object sender, RoutedEventArgs e)
+        public void PageHandler(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
             switch(button.Name)
             {
                 case "Vitals": // Vitals page
-              
+                    new VitalsWindow().Show();
+                    callEmergency.Stop();
                     break;
                 case "Settings": // Settings page
-                    
+                    new OptionsWindow().Show();
+                    callEmergency.Stop();
                     break;
                 case "Medication": // Medications page
-
-                 // I added this to main menu for convenience
-                 // Pills page should be accessed through settings so remove this part when we have settings page
-                    new Pills().Show();
+                    new MedicineWindow().Show();
                     callEmergency.Stop();
                     break;
 
@@ -227,6 +227,13 @@ namespace TheMozyer
             check.Stop();
             callEmergency.Stop();
             timer.Stop();
+        }
+
+        // For starting the window in a consistent position
+        private void SetStartPosition()
+        {
+            this.Left = 100;
+            this.Top = 100;
         }
     }
 }

@@ -69,10 +69,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Date.xaml.cs">
+      <DependentUpon>Date.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EmergencyWindow.xaml.cs">
       <DependentUpon>EmergencyWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="OptionWindow.xaml.cs">
+      <DependentUpon>OptionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VitalsWindow.xaml.cs">
+      <DependentUpon>VitalsWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Date.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MedicineWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OptionWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -85,6 +106,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MainWindow.xaml.cs" />
+    <Compile Include="MedicineWindow.xaml.cs">
+      <DependentUpon>MedicineWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pills.xaml.cs">
       <DependentUpon>Pills.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -92,6 +116,10 @@
     <Page Include="EmergencyWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VitalsWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +164,17 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Resource Include="images\SelectVitals.jpg" />
+    <Resource Include="images\A.png" />
+    <Resource Include="images\CleanBloodSugarGraph.png" />
+    <Resource Include="images\CleanBottle.png" />
+    <Resource Include="images\cleanHeartGraph.jpg" />
+    <Resource Include="images\CleanVitals.jpg" />
+    <Resource Include="images\NewBloodGraph.png" />
+    <Resource Include="images\NewBottle.png" />
+    <Resource Include="images\NewBottleSelected.png" />
+    <Resource Include="images\NewHeartGraph.png" />
+    <Resource Include="images\SelectBottle.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

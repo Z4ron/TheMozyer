@@ -38,34 +38,7 @@ namespace TheMozyer
         public MedicineWindow()
         {
             InitializeComponent();
-            GetMeds();
-
-           
-
-            updaterP = new DispatcherTimer();
-            updaterP.Interval = TimeSpan.FromSeconds(5);
-            updaterP.Tick += RandomPressure;
-            updaterP.Start();
-
-            updaterH = new DispatcherTimer();
-            updaterH.Interval = TimeSpan.FromSeconds(5);
-            updaterH.Tick += RandomHeart;
-            updaterH.Start();
-
-            check = new DispatcherTimer();
-            check.Interval = TimeSpan.FromSeconds(5);
-            check.Tick += CheckMeds;
-            check.Start();
-
-            callEmergency = new DispatcherTimer();
-            callEmergency.Interval = TimeSpan.FromSeconds(5);
-            callEmergency.Tick += Check_Count;
-            callEmergency.Start();
-
-            timer = new DispatcherTimer();
-            timer.Interval = TimeSpan.FromSeconds(1);
-            timer.Tick += timer_Tick;
-            timer.Start();
+            SetStartPosition();
         }
 
         // If critical condition continues for 10 seconds then automatically call emergency
@@ -114,40 +87,21 @@ namespace TheMozyer
             
         }
 
-        // Check upcoming medications and dispaly them if they are within 15 mins of scheduled time
-        private void CheckMeds(object sender, EventArgs e)
-        {
-            for(int i = 0; i < dates.Count; i++)
-            {
-                if(Math.Abs((dates[i] - DateTime.Now).TotalMinutes) < 15)
-                {
-                    Notifications.Text = med[i] + " " + doses[i] + " Doses at " + dates[i].ToLongTimeString();
 
-                }
-            }
-        }
-        
-        
-        private void ButtonClickHandler(object sender, RoutedEventArgs e)
+        public void PageHandler(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            switch(button.Name)
+            switch (button.Name)
             {
                 case "Vitals": // Vitals page
-              
+                    new VitalsWindow().Show();
                     break;
                 case "Settings": // Settings page
-                    
+                    new OptionsWindow().Show();
                     break;
                 case "Medication": // Medications page
-
-                 // I added this to main menu for convenience
-                 // Pills page should be accessed through settings so remove this part when we have settings page
-                    new Pills().Show();
-                    callEmergency.Stop();
+                    new MedicineWindow().Show();
                     break;
-
-
                 case "Emergency":
                     new EmergencyWindow().Show();
                     break;
@@ -155,68 +109,6 @@ namespace TheMozyer
             }
             this.Close();
 
-        }
-
-        
-        // Create random numbers for blood pressure, will be used for presentation
-        private void RandomPressure(object sender, EventArgs e)
-        {
-            Random dia = new Random(DateTime.Now.Millisecond);
-            Random sys = new Random(DateTime.Now.Millisecond);
-
-            int d = dia.Next(50, 100);
-            int s = sys.Next(90, 150);
-
-            if(d < 80)
-            {
-                Diastolic.Foreground = new SolidColorBrush(Colors.Green);
-                Diastolic.Text = d.ToString();
-            }
-            else
-            {
-                Diastolic.Foreground = new SolidColorBrush(Colors.Red);
-                Diastolic.Text = d.ToString();
-            }
-
-            if(s < 120)
-            {
-                Systolic.Foreground = new SolidColorBrush(Colors.Green);
-                Systolic.Text = s.ToString();
-            }
-            else
-            {
-                Systolic.Foreground = new SolidColorBrush(Colors.Red);
-                Systolic.Text = s.ToString();
-            }
-
-        }
-        
-        // Create random heart bpm amounts, will be used for presentation
-        private void RandomHeart(object sender, EventArgs e)
-        {
-            Random rand = new Random(DateTime.Now.Millisecond);
-            int r = rand.Next(70, 140);
-            if (r < 80)
-            {
-                HeartRate.Foreground = new SolidColorBrush(Colors.Red);
-                HeartRate.Text = r.ToString();
-                count--;
-            }
-            else if (r > 130)
-            {
-                HeartRate.Foreground = new SolidColorBrush(Colors.Red);
-                HeartRate.Text = r.ToString();
-                count--;
-            }
-            else
-            {
-                HeartRate.Foreground = new SolidColorBrush(Colors.Green);
-                HeartRate.Text = r.ToString();
-                if (count < 2)
-                {
-                    count++;
-                }
-            }
         }
 
         // Stop threads
@@ -227,6 +119,13 @@ namespace TheMozyer
             check.Stop();
             callEmergency.Stop();
             timer.Stop();
+        }
+
+        // For starting the window in a consistent position
+        private void SetStartPosition()
+        {
+            this.Left = 100;
+            this.Top = 100;
         }
     }
 }

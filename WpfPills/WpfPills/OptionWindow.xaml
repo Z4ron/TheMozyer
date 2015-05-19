@@ -1,0 +1,18 @@
+﻿<Window x:Class="TheMozyer.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Options" Height="768" Width="1366">
+    <Grid>
+        <Button x:Name="addPills" Content="Add Pills" HorizontalAlignment="Left" Margin="269,38,0,0" VerticalAlignment="Top" Width="813" Height="87" FontSize="40" Click="Pills_Button"/>
+        <Button x:Name="addPills_Copy" Content="Add Vitals" HorizontalAlignment="Left" Margin="269,130,0,0" VerticalAlignment="Top" Width="813" Height="89" FontSize="40"/>
+        <Button x:Name="addPills_Copy1" Content="Change Images" HorizontalAlignment="Left" Margin="269,224,0,0" VerticalAlignment="Top" Width="813" Height="90" FontSize="40"/>
+        <Button x:Name="addPills_Copy3" Content="Colors" HorizontalAlignment="Left" Margin="269,419,0,0" VerticalAlignment="Top" Width="813" Height="90" FontSize="40"/>
+        <Button x:Name="addPills_Copy4" Content="Set Date / Time" HorizontalAlignment="Left" Margin="269,514,0,0" VerticalAlignment="Top" Width="813" Height="88" FontSize="40"/>
+        <Button x:Name="addPills_Copy6" Content="Left Handed Mode" HorizontalAlignment="Left" Margin="269,319,0,0" VerticalAlignment="Top" Width="813" Height="95" FontSize="40"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="897,625,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Home_Button"/>
+
+    </Grid>
+</Window>

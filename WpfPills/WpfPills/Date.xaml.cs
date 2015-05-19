@@ -17,17 +17,23 @@ namespace TheMozyer
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class EmergencyWindow : Window
+    public partial class Date : Window
     {
-        public EmergencyWindow()
+        public Date()
         {
             InitializeComponent();
             SetStartPosition();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Home_Button(object sender, RoutedEventArgs e)
         {
             new MainWindow().Show();
+            this.Close();
+        }
+
+        private void Back_Button(object sender, RoutedEventArgs e)
+        {
+            new OptionsWindow().Show();
             this.Close();
         }
 

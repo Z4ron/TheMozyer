@@ -110,7 +110,7 @@
             <ComboBoxItem x:Name="cbi1am2" Content="AM"/>
             <ComboBoxItem x:Name="cbi2am2" Content="PM"/>
         </ComboBox>
-        <Button Content="Back" HorizontalAlignment="Left" Margin="913,668,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="913,668,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Back_Button"/>
         <Button Content="Home" HorizontalAlignment="Left" Margin="1126,668,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Home_Button"/>
         <DatePicker Name="from" HorizontalAlignment="Left" Margin="289,195,0,0" VerticalAlignment="Top" Height="40" Width="110"/>
         <DatePicker Name="to" HorizontalAlignment="Left" Margin="481,195,0,0" VerticalAlignment="Top" Height="40" Width="110"/>

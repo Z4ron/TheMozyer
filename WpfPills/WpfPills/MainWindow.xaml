@@ -4,10 +4,14 @@
         Title="MainWindow" Width="1366" Height="768" WindowStyle="None" ResizeMode="NoResize" Closing="Window_Closing">
     <Grid>
 
-        <Button Name="Emergency" Content="EMERGENCY" HorizontalAlignment="Left" Margin="1128,430,0,0" VerticalAlignment="Top" Width="220" Height="320" Background="Red" FontSize="30" FontWeight="Bold" Foreground="White" Click="ButtonClickHandler"/>
-        <Button Name="Medication" Content="Medications" HorizontalAlignment="Left" Margin="1128,220,0,0" VerticalAlignment="Top" Width="220" Height="200" FontSize="25" Click="ButtonClickHandler"/>
-        <Button Name="Vitals"  Content="Vitals" HorizontalAlignment="Left" Margin="1128,10,0,0" VerticalAlignment="Top" Width="220" Height="200" FontSize="25" Click="ButtonClickHandler"/>
-        <Button Name="Settings" Content="Settings" HorizontalAlignment="Left" Margin="15,664,0,0" VerticalAlignment="Top" Width="100" Height="85" FontSize="25" Click="ButtonClickHandler"/>
+        <Button Name="Emergency" Content="EMERGENCY" HorizontalAlignment="Left" Margin="1128,430,0,0" VerticalAlignment="Top" Width="220" Height="320" Background="Red" FontSize="30" FontWeight="Bold" Foreground="White" Click="PageHandler"/>
+        <Button Name="Medication" BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" HorizontalAlignment="Left" Margin="1128,220,0,0" VerticalAlignment="Top" Width="220" Height="200" FontSize="25" Click="PageHandler">
+             <Image Source="images/SelectBottle.png" Height ="190" Width="220" Stretch="Fill"/>
+        </Button>
+        <Button Name="Vitals"  BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" HorizontalAlignment="Left" Margin="1128,10,0,0" VerticalAlignment="Top" Width="220" Height="200" FontSize="25" Click="PageHandler">
+            <Image Source="images/SelectVitals.jpg" Height ="200" Width="220" Stretch="Fill"/>
+        </Button>
+        <Button Name="Settings" Content="Settings" HorizontalAlignment="Left" Margin="15,664,0,0" VerticalAlignment="Top" Width="100" Height="85" FontSize="25" Click="PageHandler"/>
 
         <TextBox Name="Notifications" HorizontalAlignment="Left" Height="75" Margin="15,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1070" FontSize="45" Background="{x:Null}" BorderBrush="{x:Null}"/>
         <TextBox Name="HeartRate" HorizontalAlignment="Left" Height="75" Margin="15,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="125" FontSize="45" Background="{x:Null}"  BorderBrush="{x:Null}" FontFamily="Arial"/>

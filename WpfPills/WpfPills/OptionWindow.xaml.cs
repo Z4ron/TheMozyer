@@ -10,24 +10,31 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace TheMozyer
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class EmergencyWindow : Window
+    public partial class OptionsWindow : Window
     {
-        public EmergencyWindow()
+        public OptionsWindow()
         {
             InitializeComponent();
             SetStartPosition();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Home_Button(object sender, RoutedEventArgs e)
         {
             new MainWindow().Show();
+            this.Close();
+        }
+
+        private void Pills_Button(object sender, RoutedEventArgs e)
+        {
+            new Pills().Show();
             this.Close();
         }
 
@@ -37,5 +44,7 @@ namespace TheMozyer
             this.Left = 100;
             this.Top = 100;
         }
+
+
     }
 }
