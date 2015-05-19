@@ -69,6 +69,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddVitals.xaml.cs">
+      <DependentUpon>AddVitals.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Date.xaml.cs">
       <DependentUpon>Date.xaml</DependentUpon>
     </Compile>
@@ -81,6 +84,10 @@
     <Compile Include="VitalsWindow.xaml.cs">
       <DependentUpon>VitalsWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="AddVitals.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Date.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

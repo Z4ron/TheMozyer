@@ -7,7 +7,7 @@
         Title="Options" Height="768" Width="1366">
     <Grid>
         <Button x:Name="addPills" Content="Add Pills" HorizontalAlignment="Left" Margin="269,38,0,0" VerticalAlignment="Top" Width="813" Height="87" FontSize="40" Click="Pills_Button"/>
-        <Button x:Name="addPills_Copy" Content="Add Vitals" HorizontalAlignment="Left" Margin="269,130,0,0" VerticalAlignment="Top" Width="813" Height="89" FontSize="40"/>
+        <Button x:Name="addPills_Copy" Content="Add Vitals" HorizontalAlignment="Left" Margin="269,130,0,0" VerticalAlignment="Top" Width="813" Height="89" FontSize="40" Click="Vitals_Button"/>
         <Button x:Name="addPills_Copy1" Content="Change Images" HorizontalAlignment="Left" Margin="269,224,0,0" VerticalAlignment="Top" Width="813" Height="90" FontSize="40"/>
         <Button x:Name="addPills_Copy3" Content="Colors" HorizontalAlignment="Left" Margin="269,419,0,0" VerticalAlignment="Top" Width="813" Height="90" FontSize="40"/>
         <Button x:Name="addPills_Copy4" Content="Set Date / Time" HorizontalAlignment="Left" Margin="269,514,0,0" VerticalAlignment="Top" Width="813" Height="88" FontSize="40" Click="Date_Button"/>

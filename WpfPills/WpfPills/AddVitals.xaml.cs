@@ -18,9 +18,9 @@ namespace TheMozyer
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class OptionsWindow : Window
+    public partial class VitalsOptions : Window
     {
-        public OptionsWindow()
+        public VitalsOptions()
         {
             InitializeComponent();
             SetStartPosition();
@@ -32,21 +32,9 @@ namespace TheMozyer
             this.Close();
         }
 
-        private void Pills_Button(object sender, RoutedEventArgs e)
+        private void Back_Button(object sender, RoutedEventArgs e)
         {
-            new Pills().Show();
-            this.Close();
-        }
-
-        private void Date_Button(object sender, RoutedEventArgs e)
-        {
-            new Date().Show();
-            this.Close();
-        }
-
-        private void Vitals_Button(object sender, RoutedEventArgs e)
-        {
-            new VitalsOptions().Show();
+            new OptionsWindow().Show();
             this.Close();
         }
 
@@ -56,7 +44,5 @@ namespace TheMozyer
             this.Left = 100;
             this.Top = 100;
         }
-
-
     }
 }

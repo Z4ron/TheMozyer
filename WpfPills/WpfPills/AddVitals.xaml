@@ -1,0 +1,57 @@
+﻿<Window x:Class="TheMozyer.VitalsOptions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Options" Height="758" Width="1366">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="394*"/>
+            <ColumnDefinition Width="285*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="addPills_Copy4" Content="Add New Vital" HorizontalAlignment="Left" Margin="269,352,0,0" VerticalAlignment="Top" Width="813" Height="88" FontSize="40" Grid.ColumnSpan="2"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="109,622,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Grid.Column="1" Click="Back_Button"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="322,622,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Home_Button" Grid.Column="1" />
+        <CheckBox x:Name="SundayBox" Content="Blood Glucose Level" HorizontalAlignment="Left" Margin="405,247,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="41" Width="195" FontSize="18.667">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="2" ScaleY="2"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="MondayBox" Content="Blood Pressure" HorizontalAlignment="Left" Margin="27,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="40" Width="146" FontSize="18.667" Grid.Column="1">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="2" ScaleY="2"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name ="TuesdayBox" Content="Hydration" HorizontalAlignment="Left" Margin="19,247,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="40" Width="126" FontSize="18.667" Grid.Column="1">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="2" ScaleY="2"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+        <CheckBox x:Name="EveryDayBox" Content="Heart Rate" HorizontalAlignment="Left" Margin="380,156,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="40" Width="144" FontSize="18.667">
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="2" ScaleY="2"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
+    </Grid>
+</Window>

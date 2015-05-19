@@ -66,3 +66,5 @@ C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Release\OptionWindow.g
 C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Release\OptionWindow.baml
 C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Release\Date.g.cs
 C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Release\Date.baml
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Release\AddVitals.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Release\AddVitals.baml
