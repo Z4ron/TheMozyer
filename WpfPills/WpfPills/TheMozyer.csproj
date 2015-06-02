@@ -171,6 +171,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Resource Include="settings.png" />
+    <Resource Include="home.png" />
     <Resource Include="images\SelectVitals.jpg" />
     <Resource Include="images\A.png" />
     <Resource Include="images\CleanBloodSugarGraph.png" />

@@ -3,26 +3,33 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Pills" Height="768" Width="1366" WindowStyle="None" AllowsTransparency="True">
     <Grid>
-        <ListBox Name="MedicationList" HorizontalAlignment="Left" Height="528" Margin="35,131,0,0" VerticalAlignment="Top" Width="233" SelectionChanged="MedicationList_SelectionChanged"/>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF00CFCF" Offset="1"/>
+                <GradientStop Color="White" Offset="0.239"/>
+                <GradientStop Color="#FFC5F4F4" Offset="0.486"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <ListBox Name="MedicationList" ScrollViewer.VerticalScrollBarVisibility="Visible"  ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Left" Height="528" Margin="35,131,0,0" VerticalAlignment="Top" Width="233" SelectionChanged="MedicationList_SelectionChanged"/>
+        
+        <TextBox Name="name" HorizontalAlignment="Left" Height="40" Margin="289,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302"/>
+        <TextBox Name="Rf" HorizontalAlignment="Left" Height="40" Margin="723,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
+        <TextBox Name="Doses" HorizontalAlignment="Left" Height="40" Margin="723,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101"/>
 
-        <TextBox Name="name" HorizontalAlignment="Left" Height="30" Margin="289,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="302"/>
-        <TextBox Name="Rf" HorizontalAlignment="Left" Height="30" Margin="723,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
-        <TextBox Name="Doses" HorizontalAlignment="Left" Height="30" Margin="723,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101"/>
 
-
-        <Label Content="Name" HorizontalAlignment="Left" Margin="312,105,0,0" VerticalAlignment="Top"/>
-        <Label Content="Rf" HorizontalAlignment="Left" Margin="723,105,0,0" VerticalAlignment="Top"/>
-        <Label Content="From" HorizontalAlignment="Left" Margin="312,169,0,0" VerticalAlignment="Top"/>
-        <Label Content="To" HorizontalAlignment="Left" Margin="513,169,0,0" VerticalAlignment="Top"/>
-        <Label Content="Doses" HorizontalAlignment="Left" Margin="723,169,0,0" VerticalAlignment="Top"/>
-        <Label Content="Medications&#xD;&#xA;" HorizontalAlignment="Left" Margin="110,105,0,0" VerticalAlignment="Top" Height="26"/>
-        <Label Content="Days" HorizontalAlignment="Left" Margin="319,270,0,0" VerticalAlignment="Top"/>
-        <Label Content="Hour" HorizontalAlignment="Left" Margin="499,292,0,0" VerticalAlignment="Top"/>
-        <Label Content="Minute" HorizontalAlignment="Left" Margin="569,292,0,0" VerticalAlignment="Top"/>
-        <Label Content="AM/PM" HorizontalAlignment="Left" Margin="649,292,0,0" VerticalAlignment="Top"/>
-        <Label Content="Pharmacy Info" HorizontalAlignment="Left" Margin="1042,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="289,89,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Rf" HorizontalAlignment="Left" Margin="723,89,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="From" HorizontalAlignment="Left" Margin="312,169,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="To" HorizontalAlignment="Left" Margin="513,169,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Doses" HorizontalAlignment="Left" Margin="723,169,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Medications&#xD;&#xA;" HorizontalAlignment="Left" Margin="73,92,0,0" VerticalAlignment="Top" Height="39" Width="141" FontSize="24"/>
+        <Label Content="Days" HorizontalAlignment="Left" Margin="319,270,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Hour" HorizontalAlignment="Left" Margin="481,271,0,0" VerticalAlignment="Top" FontSize="24" Width="69"/>
+        <Label Content="Minute" HorizontalAlignment="Left" Margin="550,271,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="AM/PM" HorizontalAlignment="Left" Margin="635,271,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label Content="Pharmacy Info" HorizontalAlignment="Left" Margin="1055,44,0,0" VerticalAlignment="Top" FontSize="24"/>
         <Label Content="Medication Info" HorizontalAlignment="Left" Margin="338,10,0,0" VerticalAlignment="Top" FontSize="24"/>
-        <Label Content="Times" HorizontalAlignment="Left" Margin="749,270,0,0" VerticalAlignment="Top"/>
+        <Label Content="Times" HorizontalAlignment="Left" Margin="752,270,0,0" VerticalAlignment="Top" FontSize="24"/>
 
 
         <CheckBox Name="SundayBox" Content="Sunday" HorizontalAlignment="Left" Margin="320,343,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
@@ -99,8 +106,8 @@
         <ComboBox Name="hours" HorizontalAlignment="Left" Margin="481,318,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.5,0.5" Height="50"/>
 
 
-        <Button Content="Add Hour" HorizontalAlignment="Left" Margin="559,375,0,0" VerticalAlignment="Top" Width="150" Click="Add_Hour" Height="60"/>
-        <ListBox Name="times" HorizontalAlignment="Left" Height="140" Margin="723,318,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button Content="Add Hour" HorizontalAlignment="Left" Margin="559,375,0,0" VerticalAlignment="Top" Width="150" Click="Add_Hour" Height="60" FontSize="24"/>
+        <ListBox Name="times" HorizontalAlignment="Left" Height="140" Margin="741,318,0,0" VerticalAlignment="Top" Width="110"/>
         <Rectangle Fill="Black" HorizontalAlignment="Left" Height="760" Margin="879,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="2"/>
         <TextBox HorizontalAlignment="Left" Height="527" Margin="913,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="398"/>
         <Button Content="Add Medication" HorizontalAlignment="Left" Margin="308,668,0,0" VerticalAlignment="Top" Width="525" Height="60" FontSize="24" Click="Add_Medication"/>
@@ -112,8 +119,8 @@
         </ComboBox>
         <Button Content="Back" HorizontalAlignment="Left" Margin="913,668,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Back_Button"/>
         <Button Content="Home" HorizontalAlignment="Left" Margin="1126,668,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Home_Button"/>
-        <DatePicker Name="from" HorizontalAlignment="Left" Margin="289,195,0,0" VerticalAlignment="Top" Height="40" Width="110"/>
-        <DatePicker Name="to" HorizontalAlignment="Left" Margin="481,195,0,0" VerticalAlignment="Top" Height="40" Width="110"/>
+        <DatePicker Name="from" HorizontalAlignment="Left" Margin="289,211,0,0" VerticalAlignment="Top" Height="40" Width="110"/>
+        <DatePicker Name="to" HorizontalAlignment="Left" Margin="481,211,0,0" VerticalAlignment="Top" Height="40" Width="110"/>
         <Button Content="Remove Medication" HorizontalAlignment="Left" Margin="35,668,0,0" VerticalAlignment="Top" FontSize ="24" Width="233" Height="58" Click="Remove_Medication"/>
     </Grid>
 </Window>

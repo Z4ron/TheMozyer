@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="EmergencyWindow" Height="768" Width="1366" WindowStyle="None" ResizeMode="NoResize">
     <Grid Background="Red">
-        <TextBox Text="Your emergency contact has been notified of your current condition" HorizontalAlignment="Left" Height="92" Margin="90,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1197" Background="{x:Null}" FontFamily="Arial" FontWeight="Bold" FontSize="36"/>
+        <TextBox Text="Your emergency contact has been notified of your current condition" HorizontalAlignment="Left" Height="92" Margin="90,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1197" Background="{x:Null}" FontFamily="Arial" FontWeight="Bold" FontSize="36" BorderBrush="{x:Null}"/>
         <Button Content="STOP" HorizontalAlignment="Left" Margin="458,395,0,0" VerticalAlignment="Top" Width="390" Height="102" FontSize="36" Click="Button_Click"/>
     </Grid>
 </Window>

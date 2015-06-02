@@ -6,13 +6,20 @@
         mc:Ignorable="d"
         Title="Options" Height="758" Width="1366" WindowStyle="None" AllowsTransparency="True">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF00CFCF" Offset="1"/>
+                <GradientStop Color="White" Offset="0.239"/>
+                <GradientStop Color="#FFC5F4F4" Offset="0.486"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="394*"/>
             <ColumnDefinition Width="285*"/>
         </Grid.ColumnDefinitions>
         <Button x:Name="addPills_Copy4" Content="Add New Vital" HorizontalAlignment="Left" Margin="269,352,0,0" VerticalAlignment="Top" Width="813" Height="88" FontSize="40" Grid.ColumnSpan="2"/>
-        <Button Content="Back" HorizontalAlignment="Left" Margin="109,622,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Grid.Column="1" Click="Back_Button"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="322,622,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Home_Button" Grid.Column="1" />
+        <Button Content="Back" HorizontalAlignment="Left" Margin="446,555,0,0" VerticalAlignment="Top" Width="185" Height="80" FontSize="24" Click="Back_Button"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="747,555,0,0" VerticalAlignment="Top" Width="185" Height="80" FontSize="24" Click="Home_Button" Grid.ColumnSpan="2" />
         <CheckBox x:Name="SundayBox" Content="Blood Glucose Level" HorizontalAlignment="Left" Margin="405,247,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="41" Width="195" FontSize="18.667">
             <CheckBox.RenderTransform>
                 <TransformGroup>

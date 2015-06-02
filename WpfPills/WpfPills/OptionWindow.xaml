@@ -6,13 +6,20 @@
         mc:Ignorable="d"
         Title="Options" Height="768" Width="1366" WindowStyle="None" AllowsTransparency="True">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF00CFCF" Offset="1"/>
+                <GradientStop Color="White" Offset="0.239"/>
+                <GradientStop Color="#FFC5F4F4" Offset="0.486"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Button x:Name="addPills" Content="Add Pills" HorizontalAlignment="Left" Margin="269,38,0,0" VerticalAlignment="Top" Width="813" Height="87" FontSize="40" Click="Pills_Button"/>
         <Button x:Name="addPills_Copy" Content="Add Vitals" HorizontalAlignment="Left" Margin="269,130,0,0" VerticalAlignment="Top" Width="813" Height="89" FontSize="40" Click="Vitals_Button"/>
         <Button x:Name="addPills_Copy1" Content="Change Images" HorizontalAlignment="Left" Margin="269,224,0,0" VerticalAlignment="Top" Width="813" Height="90" FontSize="40"/>
         <Button x:Name="addPills_Copy3" Content="Colors" HorizontalAlignment="Left" Margin="269,419,0,0" VerticalAlignment="Top" Width="813" Height="90" FontSize="40"/>
         <Button x:Name="addPills_Copy4" Content="Set Date / Time" HorizontalAlignment="Left" Margin="269,514,0,0" VerticalAlignment="Top" Width="813" Height="88" FontSize="40" Click="Date_Button"/>
         <Button x:Name="addPills_Copy6" Content="Left Handed Mode" HorizontalAlignment="Left" Margin="269,319,0,0" VerticalAlignment="Top" Width="813" Height="95" FontSize="40"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="897,625,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Home_Button"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="585,637,0,0" VerticalAlignment="Top" Width="185" Height="80" FontSize="24" Click="Home_Button"/>
 
     </Grid>
 </Window>

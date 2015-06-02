@@ -110,6 +110,9 @@ namespace TheMozyer
                 case "Emergency":
                     new EmergencyWindow().Show();
                     break;
+                case "Home":
+                    new MainWindow().Show();
+                    break;
 
             }
             this.Close();

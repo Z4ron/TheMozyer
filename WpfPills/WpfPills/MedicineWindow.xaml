@@ -4,9 +4,10 @@
         Title="MainWindow" Width="1366" Height="768" WindowStyle="None" AllowsTransparency="True" >
     <Grid>
         <Grid.Background>
-            <LinearGradientBrush EndPoint="679,0" StartPoint="679,768" MappingMode="Absolute">
-                <GradientStop Color="White" Offset="0"/>
-                <GradientStop Color="White" Offset="0.9"/>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF00CFCF" Offset="1"/>
+                <GradientStop Color="White" Offset="0.239"/>
+                <GradientStop Color="#FFC5F4F4" Offset="0.486"/>
             </LinearGradientBrush>
         </Grid.Background>
 
@@ -17,12 +18,16 @@
         <Button Name="Vitals"  BorderThickness="0" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" HorizontalAlignment="Left" Margin="1128,10,0,0" VerticalAlignment="Top" Width="220" Height="200" FontSize="25" Click="PageHandler">
             <Image Source="images/SelectVitals.jpg" Height ="200" Width="220" Stretch="Fill"/>
         </Button>
-        <Button Name="Settings" Content="Settings" HorizontalAlignment="Left" Margin="15,664,0,0" VerticalAlignment="Top" Width="100" Height="85" FontSize="25" Click="PageHandler"/>
-
-        <TextBox HorizontalAlignment="Left" Height="75" Margin="15,10,0,0" TextWrapping="Wrap" Text="Warning: Blood Glucose Levels Low, Eat a Snack" VerticalAlignment="Top" Width="1070" FontSize="45" Background="{x:Null}"/>
-        <TextBox Name="time" HorizontalAlignment="Left" Height="84" Margin="120,665,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Width="405" FontSize="45" Background="{x:Null}"/>
-        <TextBox Name="date" HorizontalAlignment="Left" Height="84" Margin="530,665,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="555" FontSize="45" Background="{x:Null}"/>
-        <Border BorderBrush="Black" BorderThickness="2">
+        <Button Background="Transparent" Name="Settings" HorizontalAlignment="Left" Margin="15,664,0,0" VerticalAlignment="Top" Width="100" Height="85" FontSize="25" Click="PageHandler" BorderBrush="{x:Null}">
+            <Image Source="settings.png" Stretch="Fill"/>
+        </Button>
+        <Button Background="Transparent" Name="Home" HorizontalAlignment="Left" Margin="120,664,0,0" VerticalAlignment="Top" Width="100" Height="85" FontSize="25" Click="PageHandler" BorderBrush="{x:Null}">
+            <Image Source="home.png" Stretch="Fill"/>
+        </Button>
+        <TextBox HorizontalAlignment="Left" Height="75" Margin="15,10,0,0" TextWrapping="Wrap" Text="WARNING: BLOOD GLUCOSE LEVELS LOW, EAT A SNACK" VerticalAlignment="Top" Width="1070" FontSize="42" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox Name="time" HorizontalAlignment="Left" Height="84" Margin="221,665,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Width="304" FontSize="45" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox Name="date" HorizontalAlignment="Left" Height="84" Margin="530,665,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="555" FontSize="45" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <Border BorderThickness="2">
             <Grid HorizontalAlignment="Left" Height="569" Margin="15,90,0,0" VerticalAlignment="Top" Width="1070">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="45*"/>

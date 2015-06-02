@@ -1,1 +1,121 @@
 C:\Users\Alper\Desktop\TheMozyer\WpfPills\WpfPills\bin\Debug\WpfPills.exe
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\bin\Debug\WpfPills.exe.config
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\bin\Debug\Database1.mdf
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\bin\Debug\Database1_log.ldf
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\bin\Debug\WpfPills.exe
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\bin\Debug\WpfPills.pdb
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\TheMozyer.csprojResolveAssemblyReference.cache
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\AddVitals.baml
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\Date.baml
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\MainWindow.baml
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\MedicineWindow.baml
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\OptionWindow.baml
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\Pills.baml
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\EmergencyWindow.baml
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\VitalsWindow.baml
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\AddVitals.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\Date.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\MainWindow.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\MedicineWindow.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\OptionWindow.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\Pills.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\EmergencyWindow.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\VitalsWindow.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\App.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills_Content.g.cs
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills_MarkupCompile.cache
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills.g.resources
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\TheMozyer.Properties.Resources.resources
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\TheMozyer.csproj.GenerateResource.Cache
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills.exe
+C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills.pdb
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\bin\Debug\WpfPills.exe.config
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills.exe
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills.pdb
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\bin\Debug\Database1.mdf
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\bin\Debug\Database1_log.ldf
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\bin\Debug\WpfPills.exe
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\bin\Debug\WpfPills.pdb
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\TheMozyer.csprojResolveAssemblyReference.cache
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\AddVitals.baml
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\Date.baml
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\MainWindow.baml
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\MedicineWindow.baml
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\OptionWindow.baml
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\Pills.baml
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\EmergencyWindow.baml
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\VitalsWindow.baml
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\AddVitals.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\Date.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\MainWindow.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\MedicineWindow.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\OptionWindow.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\Pills.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\EmergencyWindow.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\VitalsWindow.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\App.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills_Content.g.cs
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills_MarkupCompile.cache
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\WpfPills.g.resources
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\TheMozyer.Properties.Resources.resources
+C:\Users\Ben\Downloads\TheMozyer\TheMozyer-master\WpfPills\WpfPills\obj\Debug\TheMozyer.csproj.GenerateResource.Cache
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\bin\Debug\WpfPills.exe.config
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\WpfPills.exe
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\WpfPills.pdb
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\bin\Debug\Database1.mdf
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\bin\Debug\Database1_log.ldf
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\bin\Debug\WpfPills.exe
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\bin\Debug\WpfPills.pdb
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\TheMozyer.csprojResolveAssemblyReference.cache
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\AddVitals.baml
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\Date.baml
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\MainWindow.baml
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\MedicineWindow.baml
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\OptionWindow.baml
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\Pills.baml
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\EmergencyWindow.baml
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\VitalsWindow.baml
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\AddVitals.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\Date.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\MainWindow.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\MedicineWindow.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\OptionWindow.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\Pills.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\EmergencyWindow.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\VitalsWindow.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\App.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\WpfPills_Content.g.cs
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\WpfPills_MarkupCompile.cache
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\WpfPills.g.resources
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\TheMozyer.Properties.Resources.resources
+C:\Users\Ben\Documents\INFO 31-something\WpfPills\WpfPills\obj\Debug\TheMozyer.csproj.GenerateResource.Cache
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\bin\Debug\WpfPills.exe.config
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\WpfPills.exe
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\WpfPills.pdb
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\bin\Debug\Database1.mdf
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\bin\Debug\Database1_log.ldf
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\bin\Debug\WpfPills.exe
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\bin\Debug\WpfPills.pdb
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\TheMozyer.csprojResolveAssemblyReference.cache
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\AddVitals.baml
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\Date.baml
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\MainWindow.baml
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\MedicineWindow.baml
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\OptionWindow.baml
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\Pills.baml
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\EmergencyWindow.baml
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\VitalsWindow.baml
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\AddVitals.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\Date.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\MainWindow.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\MedicineWindow.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\OptionWindow.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\Pills.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\EmergencyWindow.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\VitalsWindow.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\App.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\WpfPills_Content.g.cs
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\WpfPills_MarkupCompile.cache
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\WpfPills.g.resources
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\TheMozyer.Properties.Resources.resources
+C:\Users\Ben\Source\Repos\TheMozyer\WpfPills\WpfPills\obj\Debug\TheMozyer.csproj.GenerateResource.Cache

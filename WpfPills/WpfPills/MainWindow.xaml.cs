@@ -39,9 +39,7 @@ namespace TheMozyer
         {
             InitializeComponent();
             SetStartPosition();
-            GetMeds();
-
-           
+           // GetMeds();
 
             updaterP = new DispatcherTimer();
             updaterP.Interval = TimeSpan.FromSeconds(5);
@@ -52,11 +50,6 @@ namespace TheMozyer
             updaterH.Interval = TimeSpan.FromSeconds(5);
             updaterH.Tick += RandomHeart;
             updaterH.Start();
-
-            check = new DispatcherTimer();
-            check.Interval = TimeSpan.FromSeconds(5);
-            check.Tick += CheckMeds;
-            check.Start();
 
             callEmergency = new DispatcherTimer();
             callEmergency.Interval = TimeSpan.FromSeconds(5);
@@ -89,7 +82,7 @@ namespace TheMozyer
         // Get medications in database
         private void GetMeds()
         {
-            SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Ben\Source\Backup\WpfPills\WpfPills\Database1.mdf;Integrated Security=True");
+            SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\Database1.mdf;Integrated Security=True;Integrated Security=True");
             connect.Open();
             SqlCommand command = new SqlCommand("SELECT * FROM pills", connect);
             SqlDataReader read = command.ExecuteReader();
@@ -224,7 +217,6 @@ namespace TheMozyer
         {
             updaterP.Stop();
             updaterH.Stop();
-            check.Stop();
             callEmergency.Stop();
             timer.Stop();
         }

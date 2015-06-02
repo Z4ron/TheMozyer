@@ -6,16 +6,25 @@
         mc:Ignorable="d"
         Title="Window1" Height="758" Width="1366" WindowStyle="None" AllowsTransparency="True">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF00CFCF" Offset="1"/>
+                <GradientStop Color="White" Offset="0.239"/>
+                <GradientStop Color="#FFC5F4F4" Offset="0.486"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Label x:Name="label" Content="Date:" HorizontalAlignment="Left" Margin="296,246,0,0" VerticalAlignment="Top" Height="86" Width="202" FontSize="53.333"/>
         <Label x:Name="label_Copy" Content="Time:" HorizontalAlignment="Left" Margin="296,366,0,0" VerticalAlignment="Top" Height="86" Width="202" FontSize="53.333"/>
+        <Label Content="Set Date and Time" HorizontalAlignment="Left" Margin="469,33,0,0" VerticalAlignment="Top" Height="86" Width="456" FontSize="53.333"/>
+
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="498,246,0,0" VerticalAlignment="Top" Width="168" Height="86"/>
         <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="696,246,0,0" VerticalAlignment="Top" Width="168" Height="86"/>
         <ComboBox x:Name="comboBox_Copy1" HorizontalAlignment="Left" Margin="893,246,0,0" VerticalAlignment="Top" Width="168" Height="86"/>
         <ComboBox x:Name="comboBox_Copy2" HorizontalAlignment="Left" Margin="498,366,0,0" VerticalAlignment="Top" Width="168" Height="86"/>
         <ComboBox x:Name="comboBox_Copy3" HorizontalAlignment="Left" Margin="696,366,0,0" VerticalAlignment="Top" Width="168" Height="86"/>
         <ComboBox x:Name="comboBox_Copy4" HorizontalAlignment="Left" Margin="893,366,0,0" VerticalAlignment="Top" Width="168" Height="86"/>
-        <Button Content="Back" HorizontalAlignment="Left" Margin="910,614,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Back_Button"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="1123,614,0,0" VerticalAlignment="Top" Width="185" Height="60" FontSize="24" Click="Home_Button"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="407,518,0,0" VerticalAlignment="Top" Width="245" Height="86" FontSize="24" Click="Back_Button" Background="#FFECECEC"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="739,518,0,0" VerticalAlignment="Top" Width="245" Height="86" FontSize="24" Click="Home_Button" Background="#FFECECEC"/>
 
     </Grid>
 </Window>

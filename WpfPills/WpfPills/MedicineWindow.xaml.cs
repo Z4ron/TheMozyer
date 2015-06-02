@@ -66,7 +66,7 @@ namespace TheMozyer
         // Get medications in database
         private void GetMeds()
         {
-            SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Ben\Source\Backup\WpfPills\WpfPills\Database1.mdf;Integrated Security=True");
+            SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Alper\Desktop\TheMozyer-master\WpfPills\WpfPills\Database1.mdf;Integrated Security=True");
             connect.Open();
             SqlCommand command = new SqlCommand("SELECT * FROM pills", connect);
             SqlDataReader read = command.ExecuteReader();
@@ -110,7 +110,10 @@ namespace TheMozyer
                 case "Emergency":
                     new EmergencyWindow().Show();
                     break;
-
+                case "Home":
+                    new MainWindow().Show();
+                    this.Close();
+                    break;
             }
             this.Close();
 
